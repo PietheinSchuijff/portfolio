@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto:wght@300&display=swap');
+
+body {
+	width: 98%;
+	background-color: #222423;
+	font-family: Roboto;
+	color: white;
+	text-align: center;
+}
+img {
+	max-width: 1000px;
+	max-height: 1000px;
+	margin: 3%;
+}
+#italic {
+	font-style: italic;
+}
+button {
+	margin: 2%;
+	padding: 1%;
+	border-style: none;
+	color: white;
+	background-color: #167530;	
+	font-size: 1.3em;
+	font-family: Raleway;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: #104f21 0 5px 0 0;
+	padding: 2%;
+	width: 10%;
+	height: 5%;
+}
+button:hover {
+	margin: 2%;
+	border-style: none;
+	color: #104f21;
+	background-color: white;
+	border-color: #104f21;	
+	font-size: 1.3em;
+	font-family: Raleway;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: #104f21 0 5px 0 0;
+	cursor: grab;
+	padding: 2%;
+	width: 10%;
+	height: 5%;
+}
+button:active {
+	margin: 2%;
+	border-style: none;
+	color: #104f21;
+	background-color: white;
+	border-color: #104f21;	
+	font-size: 1.3em;
+	font-family: Raleway;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: #104f21 0 5px 0 0;
+	cursor: grabbing;
+	transform: translateY(4px);
+	padding: 2%;
+	width: 10%;
+	height: 5%;
+}
+#download {
+	width: 200px;
+}
+h1 {
+	margin-top: 10%;
+
+}
+p {
+	width: 30%;
+	margin: auto;
+	margin-bottom: 5%;
+}
